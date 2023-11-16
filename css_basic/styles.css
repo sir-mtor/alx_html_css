@@ -1,0 +1,74 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    margin: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;  
+}
+
+
+article {
+    flex: 2;
+    overflow-y: auto; 
+
+aside {
+    flex: 1; 
+    overflow-y: auto;
+}
+
+
+header, footer {
+    display: flex;
+}
+body.works_on_smartphone main {
+    flex-direction: column; 
+}
+
+body.works_on_smartphone article,
+body.works_on_smartphone aside 
+{
+    flex: auto; 
+   
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: whitesmoke; 
+    color: grey;
+}
+
+header, footer {
+    background-color: blue; 
+    color: white; 
+    padding: 10px; 
+}
+
+header .logo {
+    font-size: 24px; 
+    margin-right: 10px; 
+}
+
+main {
+    background-color: white; 
+    padding: 20px; 
+}
+
+article, aside {
+    padding: 15px; 
+    background-color: white; 
+    border: 1px solid peru; 
+    margin-bottom: 15px; 
+
+
+body.works_on_smartphone main {
+    padding: 10px; 
+
+body.works_on_smartphone article,
+body.works_on_smartphone aside {
+    margin-bottom: 10px; 
+}
