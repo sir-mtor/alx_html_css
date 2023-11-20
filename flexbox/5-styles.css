@@ -263,16 +263,6 @@
          z-index: 3;
          background: transparent;
   }
-  . {
-    position: var();
-  }
-  
-  .{
-    display: var();
-    position: var();
-    top: var();
-    left: var();
-  }
 
   .header-container {
     display: flex;
