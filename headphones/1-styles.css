@@ -1,0 +1,10 @@
+:root {
+    --main-color: #3498db;
+    --font-family: 'Arial', sans-serif;
+    /* Add more variables as needed */
+}
+/* Good example */
+.container {
+    width: 100%;
+}
+
