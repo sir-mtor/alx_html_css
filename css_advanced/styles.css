@@ -1,0 +1,344 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove list styles (bullet points, numbers) */
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Resetting styles for common form elements */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    
+}
+.page1 {
+    background-image: url(images/Object.png);
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.header .Threelinks {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.VertBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 25vh;
+    justify-content: space-between;
+
+}
+.VertBlock h1 {
+    font-size: 400%;
+    color: aliceblue;
+}
+.VertBlock .text {
+    color: aliceblue;
+    
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+.VertBlock button {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color:  #C271FF;
+    
+}
+.HBlock{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    margin-top: 5%;
+    
+}
+.HBlock h1{
+    color: aliceblue;
+    width: 15%;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.HBlock h1 span {
+    
+    color: #C271FF;
+
+}.HBlock .box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    height: 35vh;
+    width: 75%;
+
+    justify-content: space-between;
+    
+
+}
+.HBlock .box h2 {
+    color: #FFFFFF;
+
+    
+}
+.HBlock .box p {
+    color: #FFFFFF;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+
+    text-align: center;
+}
+.testimonials1 {
+    background-color: #C271FF;
+   
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+.testimonials1 .box2 {
+    display: flex;
+    flex-direction: row;
+   
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+
+}
+.testimonials1 .box2 div {
+    margin-left: 40px;
+}
+.testimonials1 div blockquote {
+    
+    width: 70%;
+    font-size: 110%;
+
+}
+.testimonials1 div p {
+    font-style: italic;
+}
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tutorials .video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   height: 50vh;
+   width: 70%;
+
+
+}
+.tutorials .video .block {
+    
+position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 75%;
+    margin-top: 15px;
+    justify-content: space-between;
+    
+    padding-right: 5px;
+    position: relative;
+    
+}
+.tutorials .video .block  div .image1 {
+    position: absolute;
+    z-index: 0;
+}
+.tutorials .video .block .image2 {
+   position: absolute;
+    z-index: 1;
+    left: 35%;
+    top: 45px;
+    
+}.tutorials .video h3  {
+    position: absolute;
+    bottom: 55%;
+
+}
+.tutorials .video p  {
+    position: absolute; 
+    bottom: 40%; 
+    width: 80%;
+}.tutorials .video .man {
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    flex-direction: row;
+}.tutorials .video .rating {
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.tutorials h3 span {
+    color: #C271FF;
+    
+}
+.tutorials h3 {
+    size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font: smaller;
+
+}
+.membership {
+    background-color:  #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    padding: 30px;
+}.membership .box {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    text-align: center;
+    width: 60%;
+    height: 30vh;
+    justify-content: space-between;
+    padding-top: 30px;
+
+
+}.membership .box div {
+    display: flex;
+    flex-direction: column;
+    width: 157px;
+    height: 150px;
+align-items: center;
+ justify-content: space-between;
+}
+.membership .box img {
+    height: 35.35px;
+    width: 43.67px; 
+}.membership h3 {
+    color: #FFFFFF;
+}
+.membership h3 span {
+   color:  #C271FF;
+}
+ .membership button {
+    background: #C271FF;
+width: 162px;
+height: 44px;
+border-radius: 10px;
+color: #FFFFFF;
+}
+.how {
+    height: 100vh;
+}
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    padding-top: 60px;
+}
+.faq div {
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    width: 50%;
+    height: 40vh;
+}
+.faq div div {
+    display: flex;
+    flex-direction: column;
+    height: 33vh;
+    width: 45%;
+    padding-top: 100px;
+}
+.faq span{
+    font-size: 300%;
+}
+.footer {
+    background: #071629;
+height: 20vh;
+}
+.footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 19vh;
+    width: 100%;
+    
+    
+}
+.footer div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+}
+.footer div p {
+    bottom: 5px;
+    color: #FFFFFF;
+}
